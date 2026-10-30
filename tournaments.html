@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournaments - GameHub India</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+        body { background-color: #121212; color: #ffffff; padding-bottom: 70px; }
+        header { background: #1f1f1f; padding: 15px; text-align: center; font-size: 20px; font-weight: bold; color: #00ffcc; }
+        .container { padding: 20px; }
+        .tournament-card { background: #1e1e1e; border-radius: 10px; padding: 15px; margin-bottom: 15px; border: 1px solid #333; }
+        .tournament-card h3 { font-size: 16px; color: #ffcc00; margin-bottom: 5px; }
+        .tournament-card p { font-size: 13px; color: #aaa; margin-bottom: 10px; }
+        .register-btn { background: #ffcc00; color: #121212; border: none; padding: 10px; width: 100%; border-radius: 5px; font-weight: bold; cursor: pointer; text-align: center; display: block; text-decoration: none; font-size: 14px; }
+        nav { position: fixed; bottom: 0; left: 0; width: 100%; background: #1f1f1f; display: flex; justify-content: space-around; padding: 10px 0; border-top: 1px solid #333; }
+        nav a { text-decoration: none; color: #aaa; font-size: 11px; text-align: center; }
+        nav a.active { color: #00ffcc; }
+        nav div { font-size: 18px; margin-bottom: 3px; }
+    </style>
+</head>
+<body>
+
+    <header>🏆 GameHub India - Tournaments</header>
+
+    <div class="container">
+        <div class="tournament-card">
+            <h3>🔥 TeamOGxShaikh Weekly Cup</h3>
+            <p>Prize Pool: ₹5,000 | Map: Erangel | Mode: Squad</p>
+            <a href="#" class="register-btn" onclick="alert('सफलतापूर्वक रजिस्टर हो गया!')">Register Now</a>
+        </div>
+        <div class="tournament-card">
+            <h3>⚡ TDM War Championship</h3>
+            <p>Prize Pool: ₹2,000 | Arena 1v1 & 4v4</p>
+            <a href="#" class="register-btn" onclick="alert('सफलतापूर्वक रजिस्टर हो गया!')">Register Now</a>
+        </div>
+    </div>
+
+    <nav>
+        <a href="index.html"><div>🏠</div>Home</a>
+        <a href="games.html"><div>🎮</div>Games</a>
+        <a href="tournaments.html" class="active"><div>🏆</div>Tournaments</a>
+        <a href="upload.html"><div>➕</div>Upload</a>
+        <a href="profile.html"><div>👤</div>Profile</a>
+    </nav>
+
+</body>
+</html>
