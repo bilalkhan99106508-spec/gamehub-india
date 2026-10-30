@@ -1,0 +1,17 @@
+{
+  "name": "GameHub India",
+  "short_name": "GameHub India",
+  "start_url": "/gamehub-india/",
+  "scope": "/gamehub-india/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#00ffcc",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://img.icons8.com/color/512/controller.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
